@@ -7,4 +7,5 @@ export interface ButtonProps {
   size?: "small" | "medium" | "large";
   shape?: string;
   className?: string;
+  style?: string;
 }
