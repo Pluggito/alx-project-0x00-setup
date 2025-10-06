@@ -8,25 +8,12 @@ const LandingPage = () => {
       <h1 className="text-2xl font-bold mb-4">Button Variants Demo</h1>
 
       {/* Small Buttons */}
-      <div className="flex gap-3">
-        <Button title="Small - Rounded Sm" size="small" shape="rounded-sm" />
-        <Button title="Small - Rounded Md" size="small" shape="rounded-md" />
-        <Button title="Small - Full" size="small" shape="rounded-full" />
-      </div>
-
-      {/* Medium Buttons */}
-      <div className="flex gap-3">
-        <Button title="Medium - Rounded Sm" size="medium" shape="rounded-sm" />
-        <Button title="Medium - Rounded Md" size="medium" shape="rounded-md" />
-        <Button title="Medium - Full" size="medium" shape="rounded-full" />
-      </div>
-
-      {/* Large Buttons */}
-      <div className="flex gap-3">
-        <Button title="Large - Rounded Sm" size="large" shape="rounded-sm" />
-        <Button title="Large - Rounded Md" size="large" shape="rounded-md" />
-        <Button title="Large - Full" size="large" shape="rounded-full" />
-      </div>
+      <main className="flex flex-col items-center justify-center h-screen space-y-4">
+      <Button title="Small Button" styles="px-3 py-1 rounded-sm bg-blue-500 text-white" />
+      <Button title="Medium Button" styles="px-4 py-2 rounded-md bg-green-500 text-white" />
+      <Button title="Large Button" styles="px-6 py-3 rounded-full bg-red-500 text-white" />
+      <Button title="Extra Button" styles="px-5 py-2 rounded-lg bg-purple-500 text-white" /> {/* 👈 for rounded-lg */}
+    </main>
 
       <Card />
     </div>

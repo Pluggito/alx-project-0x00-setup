@@ -8,6 +8,7 @@ const Button: React.FC<ButtonProps> = ({
   size = "medium",
   shape = "rounded-md",
   className = "",
+  styles = "",
 }) => {
   const baseStyles = "font-semibold text-white bg-blue-600 hover:bg-blue-700 transition-all";
 
